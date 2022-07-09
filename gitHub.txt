@@ -1,0 +1,23 @@
+git config --global user.name 'ahmad' открытие имени пользователя
+git config --global user.email 'developer2594@gmail.com'
+git config --list показывает настройки
+git config --global core.autocrlf true для винды чтобы не было ошибок
+
+git init сoздаёт папку .git
+git status показывает статус проектов
+git add 'имя файла' добавление в отслеживаемые
+git add . добавление всех файлов в отслеживаемые
+git commit -m 'имя комита'
+git checkout -b 'имя новой ветки' создаст и перейдёт на новую ветку
+git checkout 'name branch' переход на другую ветку
+git remote add origin https://github.com/developer2594/portfolioEnd.git
+git branch -M main создание ветки main
+git push -u origin main отправка проекта на git
+
+git clone и вставляем ссылку на проект в git для закачки на комп
+git pull origin 'имя ветки' для закачка на комп ветку
+
+gitk --all& открвает графический интерфейс git веток
+
+git checkout main
+git checkout GoCorona
