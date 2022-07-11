@@ -124,7 +124,7 @@ body {
    -webkit-box-sizing: content-box;
    box-sizing: content-box;
    margin: 0 auto;
-   border: 1px solid blue;
+   border: 1px solid red;
 }
 .button {
    padding: 0.875rem 2rem;

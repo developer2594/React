@@ -5,7 +5,7 @@
 
 .container {
    z-index: 5;
-   /*padding-bottom: 3.125rem?;*/
+   padding-bottom: 3.125rem;
 }
 
 .container::before {

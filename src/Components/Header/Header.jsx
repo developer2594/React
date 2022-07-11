@@ -9,7 +9,6 @@ const Header = () => {
          <div className={`${Style.container} ${Command.container}`}>
             <Logo />
             <Nav />
-            <HeaderButton />
             <Burger />
          </div>
       </header>
@@ -37,14 +36,6 @@ const Nav = () => {
             <li className={Style.menu__item}><a href="#!" className={Style.link}>CONTACT US</a></li>
          </ul>
       </nav>
-   )
-}
-
-const HeaderButton = () => {
-   return (
-      <div className={`${Style.item__button} ${Command.button}`}>
-         <a href="#!" className={`${Style.button} ${Command.button}`}>download</a>
-      </div>
    )
 }
 
