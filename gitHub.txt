@@ -10,7 +10,7 @@ git add . добавление всех файлов в отслеживаемы
 git commit -m 'имя комита'
 git checkout -b 'имя новой ветки' создаст и перейдёт на новую ветку
 git checkout 'name branch' переход на другую ветку
-git remote add origin https://github.com/developer2594/portfolioEnd.git
+git remote add origin https://github.com/developer2594/React.git
 git branch -M main создание ветки main
 git push -u origin main отправка проекта на git
 
