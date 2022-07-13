@@ -1,0 +1,74 @@
+.cartRow {
+   min-width: 80px;
+}
+.main_image {
+   width: 50%;
+   margin-bottom: 10px;
+   border-radius: 5px;
+}
+.userCart {
+   display: flex;
+   gap: 15px;
+   background-color: #fff;
+   color: #000;
+   border-radius: 10px;
+   overflow: hidden;
+   width: 50%;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+.item {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid rgb(201, 193, 193);
+}
+.userCart img {
+   width: 80px;
+   height: 80px;
+}
+.name {
+   font-size: 18px;
+}
+.dataBirth {
+}
+.city {
+}
+.education {
+}
+.suite {
+}
+.myPosts {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   gap: 10px;
+   padding: 10px;
+   background-color: rgb(23, 194, 60);
+   border-radius: 5px;
+}
+.myPosts input {
+   width: 90%;
+   padding: 10px;
+   border-radius: 5px;
+}
+.myPosts button {
+   width: 50px;
+   justify-content: flex-end;
+   background-color: #fff;
+   color: #000;
+   border-radius: 3px;
+}
+
+.post {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+.postMessage {
+   margin-bottom: 5px;
+}
+.post img {
+   width: 20px;
+   border-radius: 50%;
+   margin-top: 7px;
+}

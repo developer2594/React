@@ -2,16 +2,15 @@ import './../../App.css';
 import Command from './../Command.module.css';
 import Style from './Header.module.css';
 
-console.log(Command);
 const Header = () => {
    return (
-      <header className={Style.header}>
+      <div className={Style.Header}>
          <div className={`${Style.container} ${Command.container}`}>
             <Logo />
             <Nav />
-            <Burger />
+            {/*<Burger />*/}
          </div>
-      </header>
+      </div>
    );
 }
 export default Header;

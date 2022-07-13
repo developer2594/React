@@ -1,0 +1,12 @@
+.NavBar {
+   background-color: yellowgreen;
+   grid-area: suiteBar;
+   font-size: 16px;
+   border-radius: 5px;
+}
+.list {
+}
+.item {
+}
+.link {
+}
