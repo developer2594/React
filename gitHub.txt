@@ -21,3 +21,8 @@ gitk --all& открвает графический интерфейс git ве�
 
 git checkout main
 git checkout GoCorona
+git checkout social
+git checkout counters
+
+npx create-react-app project-name установка реакта
+npm start
