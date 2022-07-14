@@ -2,17 +2,17 @@
    background-color: yellowgreen;
    grid-area: navBar;
    font-size: 16px;
+   line-height: 18px;
    border-radius: 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
-.list {
-}
-a.active {
-   /*border: 1px solid black;*/
-}
-.active {
-   /*border: 1px solid red;*/
-   color: black;
-}
+
 .link {
    color: #fff;
+   text-transform: uppercase;
+}
+
+.item:not(:last-child) {
+   /*margin-bottom: 2px;*/
 }

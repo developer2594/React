@@ -17,7 +17,6 @@ const App = () => {
                <Header />
                <NavBar />
                <div className={Command.Content}>
-                  {/*<Profile />*/}
                   <Routes>
                      <Route path='dialogs' element={<Dialogs />} />
                      <Route path='message' element={<Message />} />

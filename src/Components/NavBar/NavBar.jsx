@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import './../../App.css';
 import Command from './../Command.module.css';
 import Style from './NavBar.module.css';
 
@@ -9,7 +8,7 @@ const NavBar = () => {
          <div className={Command.container}>
             <ul className={Style.list}>
                <li className={Style.item}>
-                  <NavLink to='/profile' ClassName={Style.link}>Profile</NavLink>
+                  <NavLink to='/profile' className={Style.link}>Profile</NavLink>
                </li>
                <li className={Style.item}>
                   <NavLink to='/dialogs' className={Style.link}>Dialogs</NavLink>

@@ -1,4 +1,3 @@
-import './../../App.css';
 import Command from './../Command.module.css';
 import style from './Profile.module.css';
 

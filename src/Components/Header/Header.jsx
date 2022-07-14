@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './../../App.css';
 import Command from './../Command.module.css';
 import Style from './Header.module.css';
@@ -29,10 +30,10 @@ const Nav = () => {
    return (
       <nav>
          <ul className={Style.menu__list}>
-            <li className={Style.menu__item}><a href="#!" className={Style.link}>HOME</a></li>
-            <li className={Style.menu__item}><a href="#!" className={Style.link}>FEATURES</a></li>
-            <li className={Style.menu__item}><a href="#!" className={Style.link}>SUPPORT</a></li>
-            <li className={Style.menu__item}><a href="#!" className={Style.link}>CONTACT US</a></li>
+            <li className={Style.menu__item}><Link to="#!" className={Style.link}>HOME</Link></li>
+            <li className={Style.menu__item}><Link to="#!" className={Style.link}>FEATURES</Link></li>
+            <li className={Style.menu__item}><Link to="#!" className={Style.link}>SUPPORT</Link></li>
+            <li className={Style.menu__item}><Link to="#!" className={Style.link}>CONTACT US</Link></li>
          </ul>
       </nav>
    )

@@ -1,86 +1,12 @@
-@charset "UTF-8";
-
-* {
-   padding: 0px;
-   margin: 0px;
-   border: 0px;
+/*======COMMAND============================*/
+.container {
+   position: relative;
+   padding-right: 0.8rem;
+   padding-left: 0.8rem;
+   -webkit-box-sizing: content-box;
+   box-sizing: content-box;
+   margin: 0 auto;
 }
-
-*,
-*:before,
-*:after {
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
-}
-
-html,
-body {
-   height: 100%;
-   min-width: 320px;
-}
-
-body {
-   line-height: 1;
-   font-family: "Rubik";
-   font-size: 0.75rem;
-   -ms-text-size-adjust: 100%;
-   -moz-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
-   -webkit-font-smoothing: antialiased;
-}
-
-input,
-button,
-textarea {
-   font-family: "Rubik";
-   font-size: inherit;
-}
-
-button {
-   cursor: pointer;
-   color: inherit;
-   background-color: inherit;
-}
-
-a {
-   color: inherit;
-}
-
-a:link,
-a:visited {
-   text-decoration: none;
-}
-
-a:hover {
-   text-decoration: none;
-}
-
-ul li {
-   list-style: none;
-}
-
-img {
-   vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-   font-weight: inherit;
-   font-size: inherit;
-}
-
-body {
-   color: #616161;
-}
-
-.lock body {
-   overflow: hidden;
-}
-
 [data-fullscreen] {
    height: 100vh;
 }
@@ -102,7 +28,7 @@ body {
    -o-object-fit: cover;
    object-fit: cover;
 }
-/* ============================== */
+
 .wrapper {
    padding: 0px 15px 50px 15px;
    display: grid;
@@ -122,15 +48,6 @@ body {
 .page {
    min-width: 0;
 }
-.container {
-   position: relative;
-   padding-right: 0.8rem;
-   padding-left: 0.8rem;
-   -webkit-box-sizing: content-box;
-   box-sizing: content-box;
-   margin: 0 auto;
-}
-/* ============ */
 .Content {
    background-color: rgb(0, 128, 75);
    grid-area: main;
@@ -169,6 +86,8 @@ body {
    line-height: 1.4166666667;
    letter-spacing: 0.08em;
 }
+/*======COMMAND============================*/
+/*======MEDIA============================*/
 @media (min-width: 68.75em) {
    .title {
       font-size: 2.75rem;
@@ -215,3 +134,4 @@ body {
       text-decoration: underline;
    }
 }
+/*======MEDIA============================*/
