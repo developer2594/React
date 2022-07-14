@@ -1,12 +1,18 @@
 .NavBar {
    background-color: yellowgreen;
-   grid-area: suiteBar;
+   grid-area: navBar;
    font-size: 16px;
    border-radius: 5px;
 }
 .list {
 }
-.item {
+a.active {
+   /*border: 1px solid black;*/
+}
+.active {
+   /*border: 1px solid red;*/
+   color: black;
 }
 .link {
+   color: #fff;
 }

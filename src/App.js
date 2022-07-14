@@ -5,9 +5,11 @@ import Header from './Components/Header/Header';
 import Profile from './Components/Profile/Profile.jsx';
 import Dialogs from './Components/Dialogs/Dialogs.jsx';
 import NavBar from './Components/NavBar/NavBar';
-import { BrowserRouter, Route } from 'react-router-dom';
+import Message from './Components/Message/Message';
+import News from './Components/News/News';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-const App = (props) => {
+const App = () => {
    return (
       <BrowserRouter>
          <div className={Command.page}>
@@ -15,9 +17,14 @@ const App = (props) => {
                <Header />
                <NavBar />
                <div className={Command.Content}>
-                  <Profile />
-                  {/*<Route path='/dialogs' component={Dialogs} />
-                  <Route path='/profile' component={Profile} />*/}
+                  {/*<Profile />*/}
+                  <Routes>
+                     <Route path='dialogs' element={<Dialogs />} />
+                     <Route path='message' element={<Message />} />
+                     <Route path='news' element={<News />} />
+                     <Route path='profile' element={<Profile />} />
+
+                  </Routes>
                </div>
             </div>
          </div>
