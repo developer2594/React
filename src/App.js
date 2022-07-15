@@ -22,7 +22,6 @@ const App = () => {
                      <Route path='message' element={<Message />} />
                      <Route path='news' element={<News />} />
                      <Route path='profile' element={<Profile />} />
-
                   </Routes>
                </div>
             </div>

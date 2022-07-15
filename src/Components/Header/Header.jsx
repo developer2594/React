@@ -31,9 +31,10 @@ const Nav = () => {
       <nav>
          <ul className={Style.menu__list}>
             <li className={Style.menu__item}><Link to="#!" className={Style.link}>HOME</Link></li>
-            <li className={Style.menu__item}><Link to="#!" className={Style.link}>FEATURES</Link></li>
-            <li className={Style.menu__item}><Link to="#!" className={Style.link}>SUPPORT</Link></li>
-            <li className={Style.menu__item}><Link to="#!" className={Style.link}>CONTACT US</Link></li>
+            <li className={Style.menu__item}><Link to="#!" className={Style.link}>Profile</Link></li>
+            <li className={Style.menu__item}><Link to="#!" className={Style.link}>Dialogs</Link></li>
+            <li className={Style.menu__item}><Link to="#!" className={Style.link}>Message</Link></li>
+            <li className={Style.menu__item}><Link to="#!" className={Style.link}>News</Link></li>
          </ul>
       </nav>
    )
